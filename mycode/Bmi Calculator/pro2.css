@@ -1,0 +1,38 @@
+.container{
+    width:1000px;
+    height:800px;
+    background-color: beige;
+    border-radius: 5px;
+    border:2px solid yellowgreen;
+}
+#height, #weight{
+    width:150px;
+    height:25px;
+    margin-top:30px;  
+    border-radius:7px;
+    border-style:inset 3px ;
+}
+#weight-guide{
+    margin-left:75px;
+    margin-top: 25px;
+}
+#results{
+    font-size:35px;
+    margin-left:90px;
+    margin-top:20px;
+    color:darkslateblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+button{
+    width: 150px;
+    height: 35px;
+    margin-left:90px;
+    margin-top:25px;
+    background-color:antiquewhite;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color:black;
+   border:2px solid goldenrod;
+   font-size:18px;
+
+}
