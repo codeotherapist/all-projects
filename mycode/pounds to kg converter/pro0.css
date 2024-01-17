@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to left top,lightgreen,white,orange);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;  
+}
+.container{
+    background-color:rgba(243, 223, 10, 0.549);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(60, 65, 68, 0.607);
+    border-radius: 15px;
+    width:85%;
+    max-width: 450px;
+    }
+    .input-container
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+    .input{
+        padding: 10px;
+        width: 70%;
+        background: rgba(180, 255, 67, 0.688);
+        font-size: 20px;
+        border-radius: 10px;
+        
+    }
+    .error{
+        color: red;
+    }
