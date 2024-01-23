@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+       background-color: rgba(255, 255, 57, 0.567);
+
+}
+.container{
+    background-color: beige;
+    display: grid;
+    width: 500px;
+    gap: 22px;
+    max-width: calc(100vw-50px);
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 10px 5px  teal;
+}
+#text{
+    display:block;
+    height: 100px;
+    border-radius: 7px;
+    border: none;
+    resize: none;
+    padding:8px 10px;
+    outline: 3px solid greenyellow;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    background:rgb(203, 227, 201);
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
